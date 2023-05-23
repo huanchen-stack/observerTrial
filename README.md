@@ -1,6 +1,8 @@
 # observerTrial
 
 
-`make clean
-make speedGO
-./speedGO'
+`make clean`
+
+`make speedGO`
+
+`./speedGO`
