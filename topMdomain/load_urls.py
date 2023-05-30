@@ -36,4 +36,4 @@ def load_urls(amount, csv_path, url_col):
             urls.append(url)
 
 
-load_urls(10000, fin, url_col=2)
+load_urls(100000, fin, url_col=2)
