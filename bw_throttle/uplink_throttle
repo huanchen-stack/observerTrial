@@ -1,0 +1,4 @@
+tc qdisc add dev wlp0s20f3 root handle 1: htb default 12
+tc class add dev wlp0s20f3 parent 1: classid 1:12 htb rate 10mbit ceil 10mbit
+tc class show dev wlp0s20f3
+#tc qdisc del dev wlp0s20f3 root

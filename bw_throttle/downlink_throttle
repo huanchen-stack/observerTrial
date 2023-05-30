@@ -1,0 +1,4 @@
+wondershaper wlp0s20f3 80000 800000
+#default unit is kbps
+wondershaper -a wlp0s20f3
+#sudo wondershaper -c wlp0s20f3
